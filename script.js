@@ -102,5 +102,7 @@ var curr = 0;
 
   select(".tags").innerHTML = clutter;
 
+  select(".bio p").textContent=users[curr].bio
+
   curr = 2;
 })();
